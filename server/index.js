@@ -34,7 +34,7 @@ const fileupload=require("express-fileupload");
 
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        origin:"https://tech-shala.vercel.app",
         credentials:true
     })
 )
